@@ -37,6 +37,7 @@
                             <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
                         </property>
                     </properties>
+                    <reportsDirectory>target/</reportsDirectory>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
                         <suiteXmlFile>SuitesAndTests/${suiteFile}</suiteXmlFile>
