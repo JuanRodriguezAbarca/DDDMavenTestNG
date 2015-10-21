@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Testing_Data_Provider_with_myself">
+              <span class="suite-name border-failed">Testing Data Provider with myself</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Testing_Data_Provider_with_myself">
+                    <span>D:\DataProviderToLearn\mavenAndTestNG\SuitesAndTests\mailing.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Testing_Data_Provider_with_myself">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Testing_Data_Provider_with_myself">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Testing_Data_Provider_with_myself">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Testing_Data_Provider_with_myself">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Testing_Data_Provider_with_myself">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Testing_Data_Provider_with_myself">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 7 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Testing_Data_Provider_with_myself" class="hide-methods failed suite-Testing_Data_Provider_with_myself"> (hide)</a> <!-- hide-methods failed suite-Testing_Data_Provider_with_myself -->
+                      <a href="#" panel-name="suite-Testing_Data_Provider_with_myself" class="show-methods failed suite-Testing_Data_Provider_with_myself"> (show)</a> <!-- show-methods failed suite-Testing_Data_Provider_with_myself -->
+                    </span>
+                    <div class="method-list-content failed suite-Testing_Data_Provider_with_myself">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(3, ex1, ex2, ex3, ex4, Fail)">verifyingTheClonnedFile(3, ex1, ex2, ex3, ex4, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(4, Hhola, Cabron, finfantes, Perraco, Fail)">verifyingTheClonnedFile(4, Hhola, Cabron, finfantes, Perraco, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(7, Julai, retarder, Cartulino, kjojo, Fail)">verifyingTheClonnedFile(7, Julai, retarder, Cartulino, kjojo, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja)">verifyingTheClonnedFile(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(11, Data, Driver, Development, Testing, Fail)">verifyingTheClonnedFile(11, Data, Driver, Development, Testing, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail)">verifyingTheClonnedFile(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(9, Selenium, DDD, Works?, Sure, Fail)">verifyingTheClonnedFile(9, Selenium, DDD, Works?, Sure, Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Testing_Data_Provider_with_myself -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing_Data_Provider_with_myself" class="hide-methods passed suite-Testing_Data_Provider_with_myself"> (hide)</a> <!-- hide-methods passed suite-Testing_Data_Provider_with_myself -->
+                      <a href="#" panel-name="suite-Testing_Data_Provider_with_myself" class="show-methods passed suite-Testing_Data_Provider_with_myself"> (show)</a> <!-- show-methods passed suite-Testing_Data_Provider_with_myself -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing_Data_Provider_with_myself">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(5, Adios, Monecreque, Payaso, Al Carajo, Pass)">verifyingTheClonnedFile(5, Adios, Monecreque, Payaso, Al Carajo, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(8, Another Test, Test, row 8, try, Pass)">verifyingTheClonnedFile(8, Another Test, Test, row 8, try, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(2, Pedos Revueltos, Comida de Pollos, Can&#039;t be null, Trunchis, Pass)">verifyingTheClonnedFile(2, Pedos Revueltos, Comida de Pollos, Can't be null, Trunchis, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(1, Minda Chunga, Caralho, Copon, Pichis, Pass)">verifyingTheClonnedFile(1, Minda Chunga, Caralho, Copon, Pichis, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(10, 10th line, this will pass, Passing, isPassed?, Pass)">verifyingTheClonnedFile(10, 10th line, this will pass, Passing, isPassed?, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_Data_Provider_with_myself" title="test.java.PlayingWithExcelFiles" hash-for-method="verifyingTheClonnedFile(13, last, line, data, what, Pass)">verifyingTheClonnedFile(13, last, line, data, what, Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing_Data_Provider_with_myself -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing_Data_Provider_with_myself" class="panel Testing_Data_Provider_with_myself">
+          <div class="suite-Testing_Data_Provider_with_myself-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.java.PlayingWithExcelFiles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(3, ex1, ex2, ex3, ex4, Fail)">
+                  </a> <!-- verifyingTheClonnedFile(3, ex1, ex2, ex3, ex4, Fail) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(3, ex1, ex2, ex3, ex4, Fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(4, Hhola, Cabron, finfantes, Perraco, Fail)">
+                  </a> <!-- verifyingTheClonnedFile(4, Hhola, Cabron, finfantes, Perraco, Fail) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(4, Hhola, Cabron, finfantes, Perraco, Fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(7, Julai, retarder, Cartulino, kjojo, Fail)">
+                  </a> <!-- verifyingTheClonnedFile(7, Julai, retarder, Cartulino, kjojo, Fail) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(7, Julai, retarder, Cartulino, kjojo, Fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja)">
+                  </a> <!-- verifyingTheClonnedFile(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(11, Data, Driver, Development, Testing, Fail)">
+                  </a> <!-- verifyingTheClonnedFile(11, Data, Driver, Development, Testing, Fail) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(11, Data, Driver, Development, Testing, Fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail)">
+                  </a> <!-- verifyingTheClonnedFile(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(9, Selenium, DDD, Works?, Sure, Fail)">
+                  </a> <!-- verifyingTheClonnedFile(9, Selenium, DDD, Works?, Sure, Fail) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(9, Selenium, DDD, Works?, Sure, Fail)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed as &apos;pass&apos; was not found expected [true] but found [false]
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Data_Provider_with_myself-class-failed -->
+          <div class="suite-Testing_Data_Provider_with_myself-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.PlayingWithExcelFiles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(5, Adios, Monecreque, Payaso, Al Carajo, Pass)">
+                  </a> <!-- verifyingTheClonnedFile(5, Adios, Monecreque, Payaso, Al Carajo, Pass) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(5, Adios, Monecreque, Payaso, Al Carajo, Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(8, Another Test, Test, row 8, try, Pass)">
+                  </a> <!-- verifyingTheClonnedFile(8, Another Test, Test, row 8, try, Pass) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(8, Another Test, Test, row 8, try, Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(2, Pedos Revueltos, Comida de Pollos, Can&#039;t be null, Trunchis, Pass)">
+                  </a> <!-- verifyingTheClonnedFile(2, Pedos Revueltos, Comida de Pollos, Can't be null, Trunchis, Pass) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(2, Pedos Revueltos, Comida de Pollos, Can't be null, Trunchis, Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(1, Minda Chunga, Caralho, Copon, Pichis, Pass)">
+                  </a> <!-- verifyingTheClonnedFile(1, Minda Chunga, Caralho, Copon, Pichis, Pass) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(1, Minda Chunga, Caralho, Copon, Pichis, Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(10, 10th line, this will pass, Passing, isPassed?, Pass)">
+                  </a> <!-- verifyingTheClonnedFile(10, 10th line, this will pass, Passing, isPassed?, Pass) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(10, 10th line, this will pass, Passing, isPassed?, Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingTheClonnedFile(13, last, line, data, what, Pass)">
+                  </a> <!-- verifyingTheClonnedFile(13, last, line, data, what, Pass) -->
+                  <span class="method-name">verifyingTheClonnedFile</span>
+                  <span class="parameters">(13, last, line, data, what, Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Data_Provider_with_myself-class-passed -->
+        </div> <!-- panel Testing_Data_Provider_with_myself -->
+        <div panel-name="suite-XML_runner" class="panel XML_runner">
+        </div> <!-- panel XML_runner -->
+        <div panel-name="test-xml-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DataProviderToLearn\mavenAndTestNG\SuitesAndTests\mailing.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Testing Data Provider with myself&quot;&gt;
+  &lt;test name=&quot;Clonning Excel file and verifying&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.java.PlayingWithExcelFiles&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Clonning Excel file and verifying --&gt;
+&lt;/suite&gt; &lt;!-- Testing Data Provider with myself --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DataProviderToLearn\mavenAndTestNG\SuitesAndTests\runTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;XML runner&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;main.java.utils.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./mailing.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- XML runner --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing Data Provider with myself</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Clonning Excel file and verifying (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for XML runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing Data Provider with myself</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for XML runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing Data Provider with myself</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing_Data_Provider_with_myself');
+function tableData_Testing_Data_Provider_with_myself() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyingTheClonnedFile')
+data.setCell(0, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(0, 3, 96);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyingTheClonnedFile')
+data.setCell(1, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(1, 3, 95);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyingTheClonnedFile')
+data.setCell(2, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(2, 3, 84);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyingTheClonnedFile')
+data.setCell(3, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(3, 3, 71);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyingTheClonnedFile')
+data.setCell(4, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(4, 3, 60);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyingTheClonnedFile')
+data.setCell(5, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(5, 3, 60);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyingTheClonnedFile')
+data.setCell(6, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(6, 3, 56);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyingTheClonnedFile')
+data.setCell(7, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(7, 3, 54);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyingTheClonnedFile')
+data.setCell(8, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(8, 3, 52);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyingTheClonnedFile')
+data.setCell(9, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(9, 3, 46);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyingTheClonnedFile')
+data.setCell(10, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(10, 3, 44);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyingTheClonnedFile')
+data.setCell(11, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(11, 3, 42);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyingTheClonnedFile')
+data.setCell(12, 2, 'test.java.PlayingWithExcelFiles')
+data.setCell(12, 3, 22);
+window.suiteTableData['Testing_Data_Provider_with_myself']= { tableData: data, tableDiv: 'times-div-Testing_Data_Provider_with_myself'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 782 ms</span>
+              <div id="times-div-Testing_Data_Provider_with_myself">
+              </div> <!-- times-div-Testing_Data_Provider_with_myself -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for XML runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_XML_runner');
+function tableData_XML_runner() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['XML_runner']= { tableData: data, tableDiv: 'times-div-XML_runner'}
+return data;
+}
+              </script>
+              <div id="times-div-XML_runner">
+              </div> <!-- times-div-XML_runner -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing Data Provider with myself</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for XML runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing_Data_Provider_with_myself" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.PlayingWithExcelFiles</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">preparingResultFile</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(1, Minda Chunga, Caralho, Copon, Pichis, Pass)</span>
+                <span class="method-start">1029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(2, Pedos Revueltos, Comida de Pollos, Can't be null, Trunchis, Pass)</span>
+                <span class="method-start">1082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(3, ex1, ex2, ex3, ex4, Fail)</span>
+                <span class="method-start">1138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(4, Hhola, Cabron, finfantes, Perraco, Fail)</span>
+                <span class="method-start">1199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(5, Adios, Monecreque, Payaso, Al Carajo, Pass)</span>
+                <span class="method-start">1260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail)</span>
+                <span class="method-start">1303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(7, Julai, retarder, Cartulino, kjojo, Fail)</span>
+                <span class="method-start">1350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(8, Another Test, Test, row 8, try, Pass)</span>
+                <span class="method-start">1434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(9, Selenium, DDD, Works?, Sure, Fail)</span>
+                <span class="method-start">1494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(10, 10th line, this will pass, Passing, isPassed?, Pass)</span>
+                <span class="method-start">1516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(11, Data, Driver, Development, Testing, Fail)</span>
+                <span class="method-start">1587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja)</span>
+                <span class="method-start">1683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(13, last, line, data, what, Pass)</span>
+                <span class="method-start">1780 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-XML_runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.PlayingWithExcelFiles</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">preparingResultFile</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(1, Minda Chunga, Caralho, Copon, Pichis, Pass)</span>
+                <span class="method-start">1029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(2, Pedos Revueltos, Comida de Pollos, Can't be null, Trunchis, Pass)</span>
+                <span class="method-start">1082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(3, ex1, ex2, ex3, ex4, Fail)</span>
+                <span class="method-start">1138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(4, Hhola, Cabron, finfantes, Perraco, Fail)</span>
+                <span class="method-start">1199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(5, Adios, Monecreque, Payaso, Al Carajo, Pass)</span>
+                <span class="method-start">1260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(6, Cretino, Jilipollas, jhlk, Vengador!!!, Fail)</span>
+                <span class="method-start">1303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(7, Julai, retarder, Cartulino, kjojo, Fail)</span>
+                <span class="method-start">1350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(8, Another Test, Test, row 8, try, Pass)</span>
+                <span class="method-start">1434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(9, Selenium, DDD, Works?, Sure, Fail)</span>
+                <span class="method-start">1494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(10, 10th line, this will pass, Passing, isPassed?, Pass)</span>
+                <span class="method-start">1516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(11, Data, Driver, Development, Testing, Fail)</span>
+                <span class="method-start">1587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyingTheClonnedFile(12, Inutil, desgraciao!, vagabundo, abrazafarolas, l;kasdfja)</span>
+                <span class="method-start">1683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingTheClonnedFile(13, last, line, data, what, Pass)</span>
+                <span class="method-start">1780 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

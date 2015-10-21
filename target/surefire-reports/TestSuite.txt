@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 2.731 sec <<< FAILURE! - in TestSuite
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.118 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.035 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.031 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+
+verifyingTheClonnedFile(test.java.PlayingWithExcelFiles)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+

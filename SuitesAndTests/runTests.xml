@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="XML runner">
+    <listeners>
+        <listener class-name="main.java.utils.ListenerClass"/>
+    </listeners>
+
+    <suite-files>
+        <!-- If you have more test suites, Please add them bellow. -->
+        <suite-file path="./mailing.xml" />
+    </suite-files>
+
+</suite>

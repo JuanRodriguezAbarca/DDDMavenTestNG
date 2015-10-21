@@ -1,0 +1,99 @@
+java.io.PrintStream@57829d67
+File ./src/main/resources/newFileParsing.xlsx clonned in ./excelResults/clonnedFile.xlsx
+Test Started...
+1	Minda Chunga	Caralho	Copon	Pichis	Pass
+Result written
+Test 'verifyingTheClonnedFile' PASSED
+[TestClass name=class test.java.PlayingWithExcelFiles]
+Priority of this method is: 2
+............
+
+Test Started...
+2	Pedos Revueltos	Comida de Pollos	Can't be null	Trunchis	Pass
+Result written
+Test 'verifyingTheClonnedFile' PASSED
+[TestClass name=class test.java.PlayingWithExcelFiles]
+Priority of this method is: 2
+............
+
+Test Started...
+3	ex1	ex2	ex3	ex4	Fail
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+4	Hhola	Cabron	finfantes	Perraco	Fail
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+5	Adios	Monecreque	Payaso	Al Carajo	Pass
+Result written
+Test 'verifyingTheClonnedFile' PASSED
+[TestClass name=class test.java.PlayingWithExcelFiles]
+Priority of this method is: 2
+............
+
+Test Started...
+6	Cretino	Jilipollas	jhlk	Vengador!!!	Fail
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+7	Julai	retarder	Cartulino	kjojo	Fail
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+8	Another Test	Test	row 8	try	Pass
+Result written
+Test 'verifyingTheClonnedFile' PASSED
+[TestClass name=class test.java.PlayingWithExcelFiles]
+Priority of this method is: 2
+............
+
+Test Started...
+9	Selenium	DDD	Works?	Sure	Fail
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+10	10th line	this will pass	Passing	isPassed?	Pass
+Result written
+Test 'verifyingTheClonnedFile' PASSED
+[TestClass name=class test.java.PlayingWithExcelFiles]
+Priority of this method is: 2
+............
+
+Test Started...
+11	Data	Driver	Development	Testing	Fail
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+12	Inutil	desgraciao!	vagabundo	abrazafarolas	l;kasdfja
+Result written
+Test 'verifyingTheClonnedFile' FAILED
+Priority of this method is: 2
+...........
+
+Test Started...
+13	last	line	data	what	Pass
+Result written
+Test 'verifyingTheClonnedFile' PASSED
+[TestClass name=class test.java.PlayingWithExcelFiles]
+Priority of this method is: 2
+............
+

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" total="13" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Data Provider with myself" duration-ms="838" started-at="2015-10-20T11:53:41Z" finished-at="2015-10-20T11:53:41Z">
+    <groups>
+    </groups>
+    <test name="Clonning Excel file and verifying" duration-ms="838" started-at="2015-10-20T11:53:41Z" finished-at="2015-10-20T11:53:41Z">
+      <class name="test.java.PlayingWithExcelFiles">
+        <test-method status="PASS" signature="preparingResultFile()[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="preparingResultFile" is-config="true" duration-ms="987" started-at="2015-10-20T13:53:40Z" description="Creating results File" finished-at="2015-10-20T13:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preparingResultFile -->
+        <test-method status="PASS" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="52" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Minda Chunga]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Caralho]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Copon]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pichis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="PASS" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="56" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pedos Revueltos]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Comida de Pollos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Can't be null]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Trunchis]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="54" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ex1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ex2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ex3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ex4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="60" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hhola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cabron]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[finfantes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Perraco]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="PASS" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="42" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adios]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Monecreque]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Payaso]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Al Carajo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="46" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cretino]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jilipollas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jhlk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vengador!!!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="84" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Julai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[retarder]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cartulino]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kjojo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="PASS" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="60" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Another Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[row 8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[try]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="22" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DDD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Works?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sure]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="PASS" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="71" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10th line]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this will pass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Passing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[isPassed?]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="96" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Driver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="FAIL" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="95" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Inutil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desgraciao!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vagabundo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abrazafarolas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[l;kasdfja]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed as 'pass' was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed as 'pass' was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at test.java.PlayingWithExcelFiles.verifyingTheClonnedFile(PlayingWithExcelFiles.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1195)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+        <test-method status="PASS" signature="verifyingTheClonnedFile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.PlayingWithExcelFiles@7a79be86]" name="verifyingTheClonnedFile" duration-ms="44" started-at="2015-10-20T13:53:41Z" data-provider="readingTheClonned" finished-at="2015-10-20T13:53:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[line]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[data]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[what]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingTheClonnedFile -->
+      </class> <!-- test.java.PlayingWithExcelFiles -->
+    </test> <!-- Clonning Excel file and verifying -->
+  </suite> <!-- Testing Data Provider with myself -->
+  <suite name="XML runner" duration-ms="0" started-at="2015-10-20T11:53:42Z" finished-at="2015-10-20T11:53:42Z">
+    <groups>
+    </groups>
+  </suite> <!-- XML runner -->
+</testng-results>

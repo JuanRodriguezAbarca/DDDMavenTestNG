@@ -1,0 +1,30 @@
+<suite name = "Parallel tests" parallel ="tests" thread-count = "3">
+    <test name = "Test One">
+        <parameter name = "test-name" value = "Test One"/>
+        <classes>
+            <class name = "test.java.ParallelSuiteTest"/>
+        </classes>
+    </test>
+    <test name = "Test Two">
+        <parameter name = "test-name" value = "Test Two"/>
+        <classes>
+            <class name = "test.java.ParallelSuiteTest"/>
+        </classes>
+    </test>
+    <test name = "Test Mindas">
+        <parameter name = "test-name" value = "Test Mindas Value"/>
+        <classes>
+            <class name = "test.java.ParallelSuiteTest"/>
+        </classes>
+    </test>    <test name = "Test Pollas">
+    <parameter name = "test-name" value = "Test Pollas Value"/>
+    <classes>
+        <class name = "test.java.ParallelSuiteTest"/>
+    </classes>
+</test>    <test name = "Test Nabos">
+    <parameter name = "test-name" value = "Test Nabos Value"/>
+    <classes>
+        <class name = "test.java.ParallelSuiteTest"/>
+    </classes>
+</test>
+</suite>

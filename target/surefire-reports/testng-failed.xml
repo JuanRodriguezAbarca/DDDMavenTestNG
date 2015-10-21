@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testing Data Provider with myself]">
+  <listeners>
+    <listener class-name="main.java.utils.ListenerClass"/>
+  </listeners>
+  <test name="Clonning Excel file and verifying(failed)">
+    <classes>
+      <class name="test.java.PlayingWithExcelFiles">
+        <methods>
+          <include name="verifyingTheClonnedFile" invocation-numbers="2 3 5 6 8 10 11"/>
+          <include name="preparingResultFile"/>
+        </methods>
+      </class> <!-- test.java.PlayingWithExcelFiles -->
+    </classes>
+  </test> <!-- Clonning Excel file and verifying(failed) -->
+</suite> <!-- Failed suite [Testing Data Provider with myself] -->
