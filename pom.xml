@@ -18,7 +18,6 @@
         <!--<suiteXmlFileParallel>suites-test-testng.xml</suiteXmlFileParallel>-->
     </properties>
 
-
     <build>
         <sourceDirectory>src</sourceDirectory>
         <plugins>
@@ -27,23 +26,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.18.1</version>
                 <configuration>
-                    <properties>
-                        <property>
-                            <name>usedefaultlisteners</name>
-                            <value>false</value>
-                        </property>
-                        <property>
-                            <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
-                        </property>
-                    </properties>
-                    <reportsDirectory>target/</reportsDirectory>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
                         <suiteXmlFile>SuitesAndTests/${suiteFile}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
@@ -53,8 +42,6 @@
             </plugin>
         </plugins>
     </build>
-
-
     <dependencies>
         <!-- Dependency libraries to include for compilation -->
         <dependency>
@@ -85,41 +72,14 @@
             <version>2.48.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-            <version>3.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>1.4</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.uncommons</groupId>
-            <artifactId>reportng</artifactId>
-            <version>1.1.2</version>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.testng</groupId>
-                    <artifactId>testng</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>java-net</id>
-            <url>http://download.java.net/maven/2</url>
-        </repository>
-    </repositories>
+    <profiles>
+        <profile>
+            <id>debugger</id>
 
+        </profile>
+    </profiles>
 
 </project>
