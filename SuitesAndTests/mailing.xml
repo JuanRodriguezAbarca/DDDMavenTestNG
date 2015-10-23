@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name = "Testing Data Provider with myself" verbose = "1">
+<suite name = "Testing Data Provider on the Git" verbose = "1">
     <!--<test name = "Mailing One Hundred mails">-->
     <test name = "Clonning Excel file and verifying">
         <classes>
