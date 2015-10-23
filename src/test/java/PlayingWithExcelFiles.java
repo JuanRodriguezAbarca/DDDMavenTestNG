@@ -25,7 +25,7 @@ public class PlayingWithExcelFiles {
 
     @Test(dataProvider = "readingTheClonned", priority = 2, enabled = true)
     public void verifyingTheClonnedFile(String rowID, String name, String password, String step1, String step2, String status) throws IOException {
-        System.out.printf("%s\t%s\t%s\t%s\t%s\t%s\n", rowID, name, password, step1, step2, status);
+        System.out.printf("%s\t\t%s\t\t%s\t\t%s\t\t%s\t\t%s\n", rowID, name, password, step1, step2, status);
 
         if (spEditor.resultsWriter(rowID, (status.equalsIgnoreCase("pass"))))
             System.out.println("Result written");
